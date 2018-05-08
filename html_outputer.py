@@ -32,6 +32,7 @@ class HtmlOutputer(object):
             return True
         return False
 
+# 测试用例
 if __name__ == '__main__':
     content = ['600393', '粤泰股份', '600393:粤泰股份重大资产重组停牌进展公告', '停牌公告', '2018-05-04',
                'http://data.eastmoney.com/notices/detail/600393/AN201805031136090961,JWU3JWIyJWE0JWU2JWIzJWIwJWU4JTgyJWExJWU0JWJiJWJk.html',
