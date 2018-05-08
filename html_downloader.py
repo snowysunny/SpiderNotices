@@ -40,8 +40,8 @@ class HtmlDownloader(object):
 
 
 if __name__ == "__main__":
-    url = 'http://data.eastmoney.com/notices/getdata.ashx?StockCode=&FirstNodeType=0&CodeType=1&PageIndex=1&PageSize=50&SecNodeType=0&Time=&rt=50844815'
-    # # url = "http://data.eastmoney.com/notices/getdata.ashx?StockCode=&FirstNodeType=0&CodeType=1&PageIndex=0&PageSize=50&jsObj=tTVWnYKP&SecNodeType=0&Time=2018-05-03"
+    # url = 'http://data.eastmoney.com/notices/getdata.ashx?StockCode=&FirstNodeType=0&CodeType=1&PageIndex=1&PageSize=50&SecNodeType=0&Time=&rt=50844815'
+    url = "http://data.eastmoney.com/notices/getdata.ashx?StockCode=&FirstNodeType=0&CodeType=1&PageIndex=1&PageSize=50&SecNodeType=0&Time=2018-05-03"
     res = HtmlDownloader().download(url)
 
     print(res)
