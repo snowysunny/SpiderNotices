@@ -9,8 +9,10 @@ IF NOT EXISTS `dfcf_notices` (
 	`url` varchar(300),
 	`content` text,
 	PRIMARY KEY(`code`, `name`, `title`, `type`, `publictime`)
-);
+)DEFAULT CHARSET=utf8;
 
+
+-- 添加测试数据
 INSERT INTO dfcf_notices (
 	`code`,
 	`name`,
