@@ -20,7 +20,7 @@ class HtmlParser(object):
             print(e)
 
 if __name__ == '__main__':
-    url = "http://data.eastmoney.com/notices/detail/AER/AN201805031136865330,QWVyQ2FwK0hvbGRpbmdzK05W.html"
+    url = "http://data.eastmoney.com/notices/detail/000503/AN201805021135310047,JWU2JWI1JWI3JWU4JTk5JWI5JWU2JThlJWE3JWU4JTgyJWEx.html"
     html_data = html_downloader.HtmlDownloader().download(url)
 
     res = HtmlParser().parse(html_data)
